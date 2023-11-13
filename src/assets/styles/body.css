@@ -1,0 +1,33 @@
+.lf2 {
+    width: 100%;
+    max-width: 1490px; /* Set a maximum width for larger screens */
+    height: auto; /* Allow the height to adjust based on content */
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.portada {
+    background-image: url("../images/fondodeportata.png");
+    width: 100%;
+    max-height: 962px; /* Set a maximum height for larger screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.txt-portada {
+    color: white;
+    font-size: 8vw; /* Adjust font size based on viewport width */
+    font-family: Inter;
+    letter-spacing: 2vw; /* Adjust letter spacing based on viewport width */
+}
+
+/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .txt-portada {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        letter-spacing: 4px; /* Adjust letter spacing for smaller screens */
+    }
+}

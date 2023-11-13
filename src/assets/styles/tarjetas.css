@@ -1,0 +1,32 @@
+.custom-card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .custom-card {
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(163, 14, 14, 0.1);
+    margin: 30px;
+    background-color: #323a2c;
+    color: #fff;
+  }
+  
+  .custom-profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .custom-links {
+    margin-top: 10px;
+  }
+  
+  .custom-links a {
+    display: block;
+    margin-bottom: 5px;
+    color: #00f;
+  }
+  

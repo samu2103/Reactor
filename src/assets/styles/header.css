@@ -1,0 +1,48 @@
+.fondocolor {
+    background-color: rgba(147, 160, 160, 0.09);
+    width: 100%;
+}
+
+.letrasheader {
+    /* Base styles for all screen sizes */
+    color: rgba(23, 22, 22, 0.09);
+    display: flex;
+    width: 96%;
+    justify-content: space-around;
+    border: 2px solid rgb(7, 124, 42);
+    list-style: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 240% */
+    letter-spacing: 1px;
+
+    /* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+    @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 50px;
+        letter-spacing: 5px;
+    }
+
+    /* Media query for screens smaller than 576px (adjust the breakpoint as needed) */
+    @media (max-width: 576px) {
+        flex-direction: column;
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+.c1 {
+    color: #000;
+    text-decoration: none;
+}
+
+.lf1 {
+    width: 100%;
+    max-width: 90px; /* Adjust the maximum width for smaller screens */
+    height: auto; /* Allow the height to adjust based on content */
+    flex-shrink: 0;
+    border-radius: 50%; /* Make the border-radius a circle */
+}

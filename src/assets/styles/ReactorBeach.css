@@ -1,0 +1,77 @@
+.containerReactor {
+  text-align: center;
+  padding: 20px;
+}
+
+.txt-reactor {
+ /* Estilos para el elemento */
+width: 250%;
+max-width: 650px;
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 4vw; /* Ajusta el tamaño de fuente según el ancho de la ventana (vw) */
+font-style: normal;
+font-weight: 400;
+line-height: 2; /* 120% */
+letter-spacing: 4vw; /* Ajusta el espaciado de letra según el ancho de la ventana (vw) */
+
+/* Centra el texto horizontalmente */
+margin: 0 auto;
+
+}
+
+.content-reactor {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-reactor {
+ /* Estilos para la imagen */
+width: 1000%;
+max-width: 200px;
+height: auto;
+flex-shrink: 0;
+margin-right: 600px; /* Ajusta el valor según sea necesario para mover la imagen hacia la derecha */
+
+/* Otros estilos si los tienes */
+
+}
+
+.description-reactor {
+  /* Estilos para el elemento */
+width: 100%;
+max-width: 650px;
+height: auto;
+flex-shrink: 0;
+
+color: #000;
+font-family: Inter;
+font-size: 1.4vw; /* Ajusta el tamaño de fuente según el ancho de la ventana (vw) */
+font-style: normal;
+font-weight: 100;
+line-height: 1.3; /* Ajusta la altura de línea según sea necesario */
+letter-spacing: 0.7vw; /* Ajusta el espaciado de letra según el ancho de la ventana (vw) */
+
+/* Alinea el texto a la justificación y mueve un poco más a la derecha */
+text-align: justify;
+margin-left: 10px; /* Ajusta el valor según sea necesario */
+
+}
+
+/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+  .txt-reactor {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      letter-spacing: 4px; /* Adjust letter spacing for smaller screens */
+  }
+
+  .description-reactor {
+      font-size: 13px; /* Adjust font size for smaller screens */
+      letter-spacing: 3px; /* Adjust letter spacing for smaller screens */
+  }
+}
+ 
