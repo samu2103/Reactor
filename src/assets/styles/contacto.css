@@ -1,0 +1,12 @@
+/* CuatroGraficas.css */
+
+.cuatro-graficas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .grafica {
+    margin: 10px;
+  }
+  
